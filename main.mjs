@@ -124,6 +124,8 @@ class processed_data{
     this.buy_limits = buy_limits;
     }
 }
+
+// this is a change
 function buy_limit_finder(recipe){
     const work = recipe.inputs
     const out = []
@@ -166,5 +168,5 @@ writeFile("./.output_file.json", JSON.stringify(output_json,null,2))
 
 // const big_market_data = await 
 // fetch('https://prices.runescape.wiki/api/v1/osrs/latest');
-//const data = await big_market_data.json()
+// const data = await big_market_data.json()
 
