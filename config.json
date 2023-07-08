@@ -1,0 +1,38 @@
+{
+    "items": {
+        "Mithril Dart Tips": {
+            "output": 822,
+            "inputs": [
+                2359
+            ],
+            "manual_adjustment": 0,
+            "type": 1,
+            "speed": 1
+        },
+        "Mithril Platebody": {
+            "output": 1121,
+            "inputs": [
+                [
+                    2359,
+                    5
+                ]
+            ],
+            "manual_adjustment": 0,
+            "type": 1,
+            "speed": 1
+        },
+        "Divine Super Combat Potion, Just kidding it's black tar heroin": {
+            "output": 10144,
+            "inputs": [
+                253,
+                [
+                    1939,
+                    15
+                ]
+            ],
+            "manual_adjustment": 0,
+            "type": 1,
+            "speed": 1
+        }
+    }
+}

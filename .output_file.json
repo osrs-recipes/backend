@@ -1,0 +1,37 @@
+[
+  {
+    "item_id": 822,
+    "item_name": "Mithril dart tip",
+    "net_value": "-601.5",
+    "inputs": [
+      "Mithril bar"
+    ],
+    "buy_limits": [
+      "10000 Mithril bars"
+    ]
+  },
+  {
+    "item_id": 1121,
+    "item_name": "Mithril platebody",
+    "net_value": "-654.0",
+    "inputs": [
+      "5 Mithril bars"
+    ],
+    "buy_limits": [
+      "2000 Mithril bars"
+    ]
+  },
+  {
+    "item_id": 10144,
+    "item_name": "Tarromin tar",
+    "net_value": "-180.3",
+    "inputs": [
+      "Tarromin",
+      "15 Swamp tars"
+    ],
+    "buy_limits": [
+      "13000 Tarromins",
+      "866 Swamp tars"
+    ]
+  }
+]

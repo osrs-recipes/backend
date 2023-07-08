@@ -1,0 +1,12 @@
+{
+  "name": "maybe-this-is-an-api",
+  "version": "1.0.0",
+  "description": "this does runescape market evaluation of finished recipes",
+  "main": "main.mjs",
+  "scripts": {
+    "test": "node main.mjs",
+    "start": "start"
+  },
+  "author": "L314",
+  "license": "GPLv2"
+}
