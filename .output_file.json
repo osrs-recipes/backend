@@ -1,7 +1,12 @@
 [
   {
-    "item_id": 822,
-    "item_name": "Mithril dart tip",
+    "item": {
+      "id": 822,
+      "name": "Mithril dart tip",
+      "cost": 12,
+      "lowalch": 4,
+      "highalch": 7
+    },
     "net_value": "-601.5",
     "inputs": [
       "Mithril bar"
@@ -11,8 +16,13 @@
     ]
   },
   {
-    "item_id": 1121,
-    "item_name": "Mithril platebody",
+    "item": {
+      "id": 1121,
+      "name": "Mithril platebody",
+      "cost": 5200,
+      "lowalch": 2080,
+      "highalch": 3120
+    },
     "net_value": "-654.0",
     "inputs": [
       "5 Mithril bars"
@@ -22,8 +32,13 @@
     ]
   },
   {
-    "item_id": 10144,
-    "item_name": "Tarromin tar",
+    "item": {
+      "id": 10144,
+      "name": "Tarromin tar",
+      "cost": 1,
+      "lowalch": 0,
+      "highalch": 0
+    },
     "net_value": "-180.3",
     "inputs": [
       "Tarromin",

@@ -1,0 +1,1 @@
+jq 'map(select(.tradeable_on_ge)) | map({ (.id | tostring): {id, name, cost, lowalch, highalch} }) | reduce .[] as $item ({}; . * $item)' ./unformatted_main_item_data.json | ./main_item data.json"

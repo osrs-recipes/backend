@@ -33,23 +33,13 @@ JSON.parse(await
     );
 /*
 main_item_data is formatted as [
-    ItemId:{
-        "id"
-        "name"
-        "tradeable_on_ge"
-        "members"
-        "linked_id_item"
-        "linked_id_noted"
-        "linked_id_placeholder"
-        "noted"
-        "noteable"
-        "placeholder"
-        "stackable"
-        "equipable"
-        "cost"
-        "lowalch"
-        "highalch"
-        "stacked"
+    {
+        ItemName:{
+            "id"
+            "cost"
+            "lowalch"
+            "highalch"
+       }
     }
 ]
 */
@@ -116,9 +106,8 @@ function stonks(recipe, market_data){
     //recipe looks like [output,[inputs],manual adjustment]
 }
 class processed_data{
-    constructor(item_id,item_name,net_value,inputs,buy_limits){
-    this.item_id = item_id;
-    this.item_name = item_name;
+    constructor(item,net_value,inputs,buy_limits){;
+    this.item = item;
     this.net_value = net_value;
     this.inputs = inputs;
     this.buy_limits = buy_limits;
@@ -130,10 +119,10 @@ function buy_limit_finder(recipe){
     const work = recipe.inputs
     const out = []
     for (const x of work){
-        console.log(x)
+        //console.log(x)
         if (magic_iterator_check(x)){
-            out.push(`${Math.floor(Number(buy_limits[item_namer(x[0])])/Number(x[1]))} ${item_namer(x[0])}s`)
-        }else out.push(`${Number(buy_limits[item_namer(x)])} ${item_namer(x)}s`)
+            out.push(`${Math.floor(Number(buy_limits[item_namer(x[0]).name])/Number(x[1]))} ${item_namer(x[0]).name}s`)
+        }else out.push(`${Number(buy_limits[item_namer(x).name])} ${item_namer(x).name}s`)
     }
     return out
 }
@@ -144,24 +133,24 @@ function magic_iterator_check(check){
     return false
 }
 
-function item_namer(item){
-    //console.log(item)
-    if (magic_iterator_check(item)){
+function item_namer(itemid){
+    //console.log(itemid)
+    if (magic_iterator_check(itemid)){
         const output = []
-        for (const x of item){
+        for (const x of itemid){
             if (typeof(x) === "number"){
                 output.push(main_item_json[x].name)
             }else{output.push(`${x[1]} ${main_item_json[x[0]].name}s`)}
         }
         return output
    }else{
-    return main_item_json[item].name
+    return main_item_json[itemid]
    }
 }
 
 const output_json = []
 for (const x of Object.values(recipe_data.items)){
-    output_json.push(new processed_data(x.output,item_namer(x.output),stonks(x,test_market_data),item_namer(x.inputs),buy_limit_finder(x)))
+    output_json.push(new processed_data(item_namer(x.output),stonks(x,test_market_data),item_namer(x.inputs),buy_limit_finder(x)))
     //console.log(output_json)
 }
 writeFile("./.output_file.json", JSON.stringify(output_json,null,2))

@@ -1,0 +1,249 @@
+[
+    [
+      [
+        "Guam potion (unf)",
+        "Eye of newt"
+      ],
+      "Attack potion"
+    ],
+    [
+      [
+        "Marrentill potion (unf)",
+        "Unicorn horn dust"
+      ],
+      "Antipoison"
+    ],
+    [
+      [
+        "Tarromin potion (unf)",
+        "Limpwurt root"
+      ],
+      "Strength potion"
+    ],
+    [
+      [
+        "Tarromin potion (unf)",
+        "Ashes"
+      ],
+      "Serum 207"
+    ],
+    [
+      [
+        "Harralander potion (unf)",
+        "Volcanic ash"
+      ],
+      "Compost potion"
+    ],
+    [
+      [
+        "Harralander potion (unf)",
+        "Red spiders' eggs"
+      ],
+      "Restore potion"
+    ],
+    [
+      [
+        "Harralander potion (unf)",
+        "Chocolate dust"
+      ],
+      "Energy potion"
+    ],
+    [
+      [
+        "Ranarr potion (unf)",
+        "White berries"
+      ],
+      "Defence potion"
+    ],
+    [
+      [
+        "Toadflax potion (unf)",
+        "Toad's legs"
+      ],
+      "Agility potion"
+    ],
+    [
+      [
+        "Harralander potion (unf)",
+        "Goat horn dust"
+      ],
+      "Combat potion"
+    ],
+    [
+      [
+        "Ranarr potion (unf)",
+        "Snape grass"
+      ],
+      "Prayer potion"
+    ],
+    [
+      [
+        "Irit potion (unf)",
+        "Eye of newt"
+      ],
+      "Super attack"
+    ],
+    [
+      [
+        "Irit potion (unf)",
+        "Unicorn horn dust"
+      ],
+      "Superantipoison"
+    ],
+    [
+      [
+        "Avantoe potion (unf)",
+        "Snape grass"
+      ],
+      "Fishing potion"
+    ],
+    [
+      [
+        "Avantoe potion (unf)",
+        "Mort myre fungus"
+      ],
+      "Super energy"
+    ],
+    [
+      [
+        "Avantoe potion (unf)",
+        "Kebbit teeth dust"
+      ],
+      "Hunter potion"
+    ],
+    [
+      [
+        "Kwuarm potion (unf)",
+        "Limpwurt root"
+      ],
+      "Super strength"
+    ],
+    [
+      [
+        "Snapdragon potion (unf)",
+        "Red spiders' eggs"
+      ],
+      "Super restore"
+    ],
+    [
+      [
+        "Cadantine potion (unf)",
+        "White berries"
+      ],
+      "Super defence"
+    ],
+    [
+      [
+        "Lantadyme potion (unf)",
+        "Dragon scale dust"
+      ],
+      "Antifire potion"
+    ],
+    [
+      [
+        "Dwarf weed potion (unf)",
+        "Wine of zamorak"
+      ],
+      "Ranging potion"
+    ],
+    [
+      [
+        "Lantadyme potion (unf)",
+        "Potato cactus"
+      ],
+      "Magic potion"
+    ],
+    [
+      [
+        "Super energy(4)",
+        "Amylase crystal(x4)"
+      ],
+      "Stamina potion"
+    ],
+    [
+      [
+        "Torstol potion (unf)",
+        "Jangerberries"
+      ],
+      "Zamorak brew"
+    ],
+    [
+      [
+        "Cadantine blood potion (unf)",
+        "Wine of zamorak"
+      ],
+      "Bastion potion"
+    ],
+    [
+      [
+        "Cadantine blood potion (unf)",
+        "Potato cactus"
+      ],
+      "Battlemage potion"
+    ],
+    [
+      [
+        "Toadflax potion (unf)",
+        "Crushed nest"
+      ],
+      "Saradomin brew"
+    ],
+    [
+      [
+        "Antifire potion(4)",
+        "Lava scale shard (x4)"
+      ],
+      "Extended antifire"
+    ],
+    [
+      [
+        "Dwarf weed potion (unf)",
+        "Nihil dust"
+      ],
+      "Ancient brew"
+    ],
+    [
+      [
+        "Antidote++(4)",
+        "Zulrah's scales(x20)"
+      ],
+      "Anti-venom"
+    ],
+    [
+      [
+        "Dwarf weed potion (unf)",
+        "Lily of the sands"
+      ],
+      "Menaphite remedy"
+    ],
+    [
+      [
+        "Super attack(4)",
+        "Super strength(4)",
+        "Super defence(4)",
+        "Torstol[1]"
+      ],
+      "Super combat potion"
+    ],
+    [
+      [
+        "Antifire potion(4)",
+        "Crushed superior dragon bones"
+      ],
+      "Super antifire potion"
+    ],
+    [
+      [
+        "Anti-venom(4)",
+        "Torstol"
+      ],
+      "Anti-venom+"
+    ],
+    [
+      [
+        "Super antifire potion(4)",
+        "Lava scale shard (x4)"
+      ],
+      "Extended super antifire"
+    ]
+  ]
